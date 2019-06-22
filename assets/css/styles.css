@@ -1,21 +1,79 @@
-h1 {
-    color:#ffffff;
-    font-size: 30pt;
-    font-weight: 900;
- }
-body {
+ body {
     background-color:#001f3f;
-color:#ffffff;
+    color:#ffffff;
+    /*make sure to set family/size in body */
+    font-family: sans-serif;
+    font-size: 15pt;
+    font-weight: 10px;
+}
+
+/*TYPOGRAPHY*/
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    font-family: serif;
+    margin: 10px 0 10px 0;
+}
+h1 {
+    background-color: #6dc4a0;
+    color:#ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 50pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+h2 {
+    color:#6dc4a0;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    letter-spacing: 5pt;
+
+}
+
+P {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 30px 0;
+    padding-top: 20px;
+    }
+
+    /* Main containers*/
+.wrapper{
+    widows: 950px;
+/* TOP RIGHT BOTTOM LEFT (LIKE CLOCK) */
+    margin: 0px auto;
+
 }
 header {
     background-color: #7663B1;
+    height: 200px;
+    padding: 10px auto;
+    margin-bottom: 20px;
 }
+
 nav {
     background-color: #7E95BB;
+    text-align: right;
+    border: 5px dashed white;
+    margin-bottom: 40px;
 }
-main {background-color: 
 
+main {
+        background-color: rgb(66, 66, 224);
+        padding: 20px 0;
 }
-footer {background-color: #7E95BB;
-    
+
+footer {
+        background-color: #7E95BB;
+        padding: 10px;
 }
