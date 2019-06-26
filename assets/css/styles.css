@@ -1,13 +1,23 @@
- body {
-    background-color:#001f3f;
-    color:#ffffff;
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Montserrat|Noto+Sans|Noto+Sans+KR|Ubuntu+Condensed&display=swap');
+
+body {
+    background-color:#e061c5;
+    color:#080606; 
     /*make sure to set family/size in body */
-    font-family: sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 15pt;
     font-weight: 10px;
 }
 
-/*TYPOGRAPHY*/
+/*
+TYPOGRAPHY
+To call on the font I want to use: 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+*/
 h1,
 h2, 
 h3,
@@ -21,6 +31,7 @@ h1 {
     background-color: #6dc4a0;
     color:#ffffff;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 50px;
     font-weight: bolder;
     line-height: 50pt;
@@ -29,14 +40,15 @@ h1 {
  }
 
 h2 {
-    color:#6dc4a0;
+    color:#5a52d1;
     background-color: blanchedalmond;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: bold;
     border-bottom: 2px solid white;
     padding: 10px 0;
-    letter-spacing: 5pt;
+    letter-spacing: 2pt;
 
 }
 
@@ -55,25 +67,46 @@ P {
 
 }
 header {
-    background-color: #7663B1;
+    background-color: rgb(118, 198, 218);
     height: 200px;
-    padding: 10px auto;
-    margin-bottom: 20px;
+    padding: 10px 10px;
+    margin: 20px;
 }
 
 nav {
-    background-color: #7E95BB;
-    text-align: right;
-    border: 5px dashed white;
-    margin-bottom: 40px;
+    background-color: rgb(240, 64, 152);
+    padding: 10px 10px;
+    }
+
+nav ul {
+   
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    background-color: azure;
+    padding: 5px 8px;
+  }
+
+nav ul li a:hover {
+    background-color: #6dc4a0;
 }
 
 main {
-        background-color: rgb(66, 66, 224);
+        background-color: rgb(111, 224, 101);
         padding: 20px 0;
 }
 
 footer {
         background-color: #7E95BB;
-        padding: 10px;
+        margin: 10px auto;
+        padding-top: 2px;
+        padding-bottom: 10px;
 }
